@@ -1,0 +1,20 @@
+.contact-content {
+    height: 80vh;
+    margin: 32px auto 0 auto;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url(../img/vector.jpg);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    border-radius: 12px;
+    z-index: -1;
+}
