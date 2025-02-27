@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --main-bg-color: purple;
+    --main-bg-color: #b5828c;
     --font-1: "Roboto", serif;
     --font-2: "Nunito", serif;
 }
@@ -24,6 +24,10 @@
 
 .m-auto {
     margin:auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
 }
 
 .my-2{
@@ -54,5 +58,9 @@
 .form-box input, .form-box textarea{
     width: 52vw;
     padding: 10px 6px;
-    margin: 7px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid #b5828c;
+    border-radius: 5px;
 }
